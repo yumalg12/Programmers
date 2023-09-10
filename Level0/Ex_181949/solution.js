@@ -9,14 +9,9 @@ let input = [];
 rl.on('line', function (line) {
     input = [line];
 }).on('close',function(){
-    str = input[0];
-    res = "";
-    for (let i = 0; i < str.length; i++) {
-        if (str[i].charCodeAt(0) < "a".charCodeAt(0)){
-            res += str[i].toLowerCase();
-        } else {
-            res += str[i].toUpperCase();
-        }
-    }
-    console.log(res);
+    str = input[0].split('');
+    str.forEach((value, i, str) => (
+    str[i] === str[i].toUpperCase()? str[i] = value.toLowerCase(): str[i] = value.toUpperCase()
+    ));
+    console.log(str.join(''));
 });
