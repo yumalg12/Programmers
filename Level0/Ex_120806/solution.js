@@ -1,0 +1,1 @@
+const solution = (n,m) => Math.trunc((n/m)*1000)
