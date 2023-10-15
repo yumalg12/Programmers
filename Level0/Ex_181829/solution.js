@@ -1,0 +1,1 @@
+const solution = (board, k) => board.map((v,i)=>v.filter((e,j)=>i+j<=k)).flat().reduce((acc,x)=>acc+x)
