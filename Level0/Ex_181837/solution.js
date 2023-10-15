@@ -1,0 +1,1 @@
+const solution = (order) => order.reduce((acc,v)=>acc+(v.includes("latte")?5000:4500),0)

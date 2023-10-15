@@ -1,0 +1,1 @@
+const solution = (picture, k) => picture.map(e => [...e].map(v => v.repeat(k)).join('')).reduce((acc, x) => {Array(k).fill().forEach(() => acc.push(x)); return acc;}, []);
