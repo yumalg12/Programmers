@@ -1,0 +1,1 @@
+const solution = (arr, k) => ((a) => a.length >= k? a.slice(0,k): Array(k).fill(-1).map((e,i)=>i<a.length?e=a[i]:-1))(arr.reduce(((acc,e)=>acc.includes(e)? acc: [...acc, e]),[]));

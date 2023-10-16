@@ -1,0 +1,1 @@
+const solution = (arr) => [...arr, ...Array(Array(11).fill(2).map((_,i)=>Math.pow(2,i)-arr.length).filter(e=>e>=0)[0]).fill(0)]

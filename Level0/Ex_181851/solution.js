@@ -1,0 +1,1 @@
+const solution = (rank, attendance) => ((arr)=>rank.indexOf(arr[0])*10000+rank.indexOf(arr[1])*100+rank.indexOf(arr[2]))(rank.filter((_,i)=>attendance[i]).sort((a,b)=>a-b))

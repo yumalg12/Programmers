@@ -1,0 +1,1 @@
+const solution = (strArr) => Math.max(...Array(30).fill(0).map((_,i)=>strArr.filter(e=>e.length==i+1).length));
