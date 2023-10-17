@@ -1,0 +1,1 @@
+const solution = (n) => Array(n).fill(n).map((e,i)=>e=i+1).filter(v=>v%2===1)
