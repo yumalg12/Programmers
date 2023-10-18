@@ -1,0 +1,1 @@
+const solution = (n) => Array(n).fill(0).map((e,i)=>e=(i+1)*6).find(v=>v%n===0)/6
