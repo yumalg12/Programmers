@@ -1,0 +1,1 @@
+SELECT name, count(*) count from animal_ins group by name having isnull(name) = false and count > 1 order by name
