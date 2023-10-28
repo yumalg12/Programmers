@@ -1,0 +1,1 @@
+const solution = (num_list, n) => num_list.map((_,i)=>i%n===0?num_list.slice(i,i+n):'').filter(e=>e!='');

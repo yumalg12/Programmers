@@ -1,0 +1,1 @@
+const solution = (numbers, k) => 2*(k-1)%numbers.length+1;
