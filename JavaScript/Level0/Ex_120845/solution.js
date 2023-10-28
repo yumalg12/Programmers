@@ -1,0 +1,1 @@
+const solution = ([x,y,z], n) => ~~(x/n) * ~~(y/n) * ~~(z/n);
