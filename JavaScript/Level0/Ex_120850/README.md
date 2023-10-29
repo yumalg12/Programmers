@@ -1,0 +1,1 @@
+const solution = (my_string) => [...my_string].filter(e=>!isNaN(Number(e))).map(e=>Number(e)).sort((a,b)=>a-b);

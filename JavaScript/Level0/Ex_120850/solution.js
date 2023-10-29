@@ -1,0 +1,1 @@
+const solution = (my_string) => [...my_string.replaceAll(/[a-z]/g,'')].map(e=>Number(e)).sort((a,b)=>a-b);
