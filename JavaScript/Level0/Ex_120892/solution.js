@@ -1,0 +1,1 @@
+const solution = (cipher, code) => [...cipher].reduce((acc,e,i)=>(i+1)%code===0? acc+e: acc, '');

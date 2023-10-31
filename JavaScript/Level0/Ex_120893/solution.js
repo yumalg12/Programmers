@@ -1,0 +1,1 @@
+const solution = (my_string) => [...my_string].reduce((acc,e)=>e===e.toUpperCase()?acc+e.toLowerCase(): acc+e.toUpperCase(), '');
