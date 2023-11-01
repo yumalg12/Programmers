@@ -1,0 +1,1 @@
+const solution = (str, n1, n2) => str.slice(0,n1) + str[n2] + str.slice(n1+1, n2) + str[n1] + str.slice(n2+1);
