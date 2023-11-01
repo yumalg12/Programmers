@@ -1,0 +1,1 @@
+const solution = (message) => 2*message.length;
