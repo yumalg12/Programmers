@@ -1,0 +1,1 @@
+const solution = (array) => [...array.join('')].filter(e=>e==7).length;
