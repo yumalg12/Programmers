@@ -1,0 +1,1 @@
+const solution = (babbling) => babbling.map(e => e.replaceAll(/aya|ye|woo|ma/g, '')).filter(e=>!e).length;

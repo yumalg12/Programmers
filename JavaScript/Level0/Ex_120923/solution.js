@@ -1,0 +1,1 @@
+const solution = (num, total) => Array(num).fill(0).map((e,i)=>i+1+~~(total/num)-Math.ceil(num/2));
