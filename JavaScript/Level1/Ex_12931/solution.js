@@ -1,0 +1,1 @@
+const solution = (n) => [...(n+'')].reduce((acc,e)=>acc+e/1,0);
