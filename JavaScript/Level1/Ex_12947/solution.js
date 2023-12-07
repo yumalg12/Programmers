@@ -1,0 +1,1 @@
+const solution = (x) => x%([...String(x)].reduce((acc,e)=>acc+e/1,0)) === 0;
