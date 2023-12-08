@@ -1,0 +1,1 @@
+const solution = (s) => s.slice(Math.floor(s.length/2), Math.ceil(s.length/2)) || s.slice(Math.floor(s.length/2)-1, Math.ceil(s.length/2)+1);

@@ -1,0 +1,1 @@
+const solution = (n) =>Array(n).fill('수').map((e,i)=>i%2? e='박':e).join('')
