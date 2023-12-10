@@ -1,0 +1,1 @@
+const solution = (s, n) => [...s].map(e=>e===' '?e:String.fromCharCode(e.charCodeAt(0)+n-(e.charCodeAt(0)+n>(e<='Z'?90:122)?26:0))).join('');
