@@ -1,0 +1,1 @@
+const solution = (k, m, score) => score.sort((a,b)=>b-a).reduce((acc,e,i)=>((i+1)%m === 0)? acc+e: acc, 0) * m
